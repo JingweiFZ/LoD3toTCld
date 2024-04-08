@@ -1,0 +1,59 @@
+//this file is to load the point clouds and registration for labeling the thermal point clouds
+
+
+
+
+
+//work directory
+G:/3DGeo/source/
+//save directory,FGR_R/
+G:/3DGeo/labelT/fine/
+//temp directory
+G:/3DGeo/temp/fine/
+
+//las file for the Mlod3 point clouds,G:/3DGeo/source/DEBY_LOD3_4959323.txt,G:/3DGeo/temp/Shift_lod3.txt
+G:/3DGeo/labelT/FGR_R/Tlod3.txt
+//pcd file for the thermal point clouds
+G:/3DGeo/source/DEBY_Thermal.pcd
+//save point clouds file
+labeled_fine_Tcloud.pcd
+
+//image folder
+G:/Application/calibrated/
+//image pandix
+calib_
+//image file _affidex
+.jpg
+//start of the image 
+8400
+//end of the image
+8900
+
+//pos file
+D:/data_folder/MLS2016/camera_ir/vehicle-track_ir-frames.txt
+//dx,dy,dz
+-0.90										// lever arm of IR camera
+-0.50
+-0.36
+//innertial position of the camera
+-0.39
+-11.0
+-120.2
+//cx,cy,f
+240
+320
+500
+//image size
+480
+640
+//thermal point clouds labeling
+//resolution
+0.1
+//threshold
+0.5
+
+//transformation matrix//G:/3DGeo/source/TMtx.txt,G:/3DGeo/labelT/FGR_R/FGR_Mtx.txt,G:/3DGeo/temp/FGR_Mtx.txt
+G:/3DGeo/labelT/fine/matrix2.txt
+
+//matched reference: 
+G:/3DGeo/source/DEBY_LOD3_4959323_transformed1.pcd
